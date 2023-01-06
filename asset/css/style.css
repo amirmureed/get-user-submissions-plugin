@@ -1,0 +1,34 @@
+.form-container {
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.form-container input, textarea, span {
+    width: 400px;
+    margin: 2px;
+    font-size: 18px;
+}
+
+#postStatus {
+    color: green;
+    display: none;
+    padding-top: 10px;
+}
+
+.form-container span{
+    color: red;
+    display: none;
+}
+
+select option {
+    margin: 2px;
+    font-size: 18px;
+    height: 20px;
+}
+
+.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim {
+    inset: 1 !important;
+    position: relative;
+}
+
